@@ -16,10 +16,10 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
-    "target": "ES2022",
+    "target": "esnext",
     "module": "ES2022",
     "lib": [
-      "ES2022",
+      "esnext",
       "dom"
     ]
   },
@@ -30,3 +30,6 @@
     "strictTemplates": true
   }
 }
+
+// ES2022: Más estable y seguro para producción, ya que solo incluye características que han sido completamente aprobadas.
+// esnext: Más innovador, incluye características futuras que pueden cambiar o ser eliminadas.
