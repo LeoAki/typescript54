@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { InferencePresenter } from './tipos/a_inference.presenter';
-import { DefinidedNs } from './tipos/b_definided.ns';
-import { DefinidedPresenter } from './tipos/b_definided.presente';
-import { StructuralSystemPresenter } from './tipos/c_structual_system.presenter';
-import { NoIferPresenter } from './NoIfer/noIfer.presenter';
-import { GroupByPersenter } from './group/groupBy.presenter';
+import { InferencePresenter } from './feature/typescript/tipos/a_inference.presenter';
+import { DefinidedNs } from './feature/typescript/tipos/b_definided.ns';
+import { DefinidedPresenter } from './feature/typescript/tipos/b_definided.presente';
+import { StructuralSystemPresenter } from './feature/typescript/tipos/c_structual_system.presenter';
+import { NoIferPresenter } from './feature/typescript/NoIfer/noIfer.presenter';
+import { GroupByPersenter } from './feature/typescript/group/groupBy.presenter';
 
 @Component({
   selector: 'app-root',
