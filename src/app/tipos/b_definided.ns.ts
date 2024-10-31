@@ -5,6 +5,11 @@ export namespace DefinidedNs {
     id: number | null; // Tipos compuestos
   }
 
+  enum TIPOS_NACIONALIDAD {
+    EXTRANJERO= '1',
+    LOCAL= '2'
+  }
+
   export class UserAccount {
     name: string;
     id: number;

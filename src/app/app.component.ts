@@ -37,12 +37,12 @@ export class AppComponent implements OnInit {
   }
 
   init(): void {
-    this.inferenceVariables();
-    this.setearUsuarioClase();
-    this.setuserExercise();
-    this.useStructureSystem();
+    // this.inferenceVariables();
+    // this.setearUsuarioClase();
+    // this.setuserExercise();
+    // this.useStructureSystem();
     this.useNoIfer();
-    this.getDataGroupBy();
+    // this.getDataGroupBy();
   }
 
   inferenceVariables(): void {
@@ -89,7 +89,7 @@ export class AppComponent implements OnInit {
     //Si bien no está mal en este caso, usar un parámetro de tipo solo una vez suele ser un error de codeSmell.
 
     //Con Ifer:
-    // this.noIferP.createTrafficLight__with__NoIfer(['rojo', 'amarillo', 'verde'], "verde");
+    this.noIferP.createTrafficLight__with__NoIfer(['rojo', 'amarillo', 'verde'], "verde");
   }
 
   getDataGroupBy(): void {

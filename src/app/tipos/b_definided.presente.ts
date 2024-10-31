@@ -2,8 +2,10 @@ import { DefinidedNs } from "./b_definided.ns";
 
 export class DefinidedPresenter {
 
+  // variables
   usuarios: DefinidedNs.User[] = [];
 
+  // métodos
   getUserNull(): DefinidedNs.User {
     return {
       id: null,
